@@ -2,10 +2,12 @@
   "name": "literate-octo-chainsaw",
   "type": "module",
   "scripts": {
-    "test": "node --test --experimental-strip-types './src/**/*.test.ts'"
+    "test": "node --test --experimental-strip-types './src/**/*.test.ts'",
+    "typecheck": "tsc --noEmit"
   },
   "packageManager": "pnpm@10.11.0",
   "devDependencies": {
+    "@types/node": "22.6.0",
     "typescript": "5.8.3"
   }
 }
