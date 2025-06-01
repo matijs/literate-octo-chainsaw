@@ -1,0 +1,11 @@
+{
+  "name": "literate-octo-chainsaw",
+  "type": "module",
+  "scripts": {
+    "test": "node --test --experimental-strip-types './src/**/*.test.ts'"
+  },
+  "packageManager": "pnpm@10.11.0",
+  "devDependencies": {
+    "typescript": "5.8.3"
+  }
+}
